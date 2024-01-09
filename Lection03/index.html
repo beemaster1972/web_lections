@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Это обычный HTML</p>
+    <div id="sum"> Здесь будет сумма</div>
+    <script>
+        var a = parseInt(prompt("Введите число a: "));
+        var b = parseInt(prompt("Введите число b: "));
+        var msg = `Сумма чисел a и b равна ${a+b}`;
+        // window.document.writeln(msg);
+        window.document.getElementById("sum").innerHTML = msg;
+    </script>
+
+    <p>Выходим обратно в HTML</p>
+</body>
+</html>
